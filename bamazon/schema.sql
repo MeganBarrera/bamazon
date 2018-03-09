@@ -1,0 +1,7 @@
+DROP DATABASE IF EXISTS bamazon;
+CREATE DATABASE bamazon;
+
+CREATE TABLE products(
+    id AUTO_INCREMENT NOT NULL,
+    product NOT NULL,
+)
